@@ -28,3 +28,7 @@ if __name__ == '__main__':
 
     #flatten the above matrix
     print([j for i in matrix for j in i])
+    
+    fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+    newlist = [x if x != "banana" else "orange" for x in fruits]
+    print(newlist)
